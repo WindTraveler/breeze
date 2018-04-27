@@ -1,0 +1,14 @@
+2018-04-12T17:50:30+08:00	act=get_auth_info&return_data=json&ac=0d81955142c9ac33e4c06ff916585567
+array (
+  'act' => 'get_auth_info',
+  'return_data' => 'json',
+  'ac' => '0d81955142c9ac33e4c06ff916585567',
+)
+
+2018-04-12T17:50:47+08:00	act=get_auth_info&return_data=json&ac=0d81955142c9ac33e4c06ff916585567
+array (
+  'act' => 'get_auth_info',
+  'return_data' => 'json',
+  'ac' => '0d81955142c9ac33e4c06ff916585567',
+)
+
