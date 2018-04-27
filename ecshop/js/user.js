@@ -1067,3 +1067,26 @@ function calResult()
     }
   }
 }
+
+//---------------分割线---------------
+//作者：马翔宇
+
+
+/*
+ *描述：手机号输入合法时，“获取验证码”按钮可用,否则不可用
+ */
+
+function changeSmsBtnState() {
+    let mobile = document.getElementById("mobile");
+    let phoneNumber = mobile.value;
+    let sms = document.getElementById("get_sms");
+    let reg = /^1[34578]\d{9}$/;
+
+    if (reg.test(phoneNumber)){
+        sms.disabled = false;
+    }
+    else{
+        sms.disabled = true;
+    }
+}
+

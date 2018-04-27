@@ -11,6 +11,17 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="<?php echo $this->_var['ecs_css_path']; ?>" rel="stylesheet" type="text/css" />
+<style>
+    #get_sms{
+        cursor: pointer;
+     }
+    #get_sms[disabled]{
+        border: 1px solid #d2d2d2;
+        background: #d2d2d2;
+        color: #fff;
+        cursor: not-allowed;
+    }
+</style>
 
 <?php echo $this->smarty_insert_scripts(array('files'=>'common.js,user.js,transport.js')); ?>
 
@@ -145,7 +156,7 @@
         <tr>
           <td align="right"><?php echo $this->_var['lang']['mobile']; ?></td>
           <td>
-            <input name="mobile" type="text" size="25" id="mobile" class="inputBg"/>
+            <input name="mobile" type="text" size="25" id="mobile" class="inputBg" oninput="changeSmsBtnState()"/>
             <span id="mobile_notice" style="color:#FF0000"> *</span>
           </td>
         <tr>
@@ -183,7 +194,7 @@
           <td align="right">短信验证码</td>
           <td>
             <input type="text" name="sms_code" value=""size="8" class="inputBg">
-            <input id="get_sms" type="button" style="align-content: center;width:80px;height:22px;background:#d2d2d2;color:#fff;cursor:pointer" class="inputBg" onclick="send_sms()" value="获取验证码" />
+            <input id="get_sms" type="button" style="align-content: center;width:80px;height:22px" class="inputBg" onclick="send_sms()" value="获取验证码" disabled/>
             <span style="color:#FF0000;" id="sms_tip"></span>
           </td>
         </tr>
