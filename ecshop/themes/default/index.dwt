@@ -181,5 +181,36 @@ if (Object.prototype.toJSONString){
   </div>
 </div>
 <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+
+<!--地理位置-->
+<!--<script src="http://api.map.baidu.com/api?v=3.0&ak=taVE3VGRKQkv1rb8ngGRHNpwFkv2a6MG"></script>-->
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=IGEBZ-HHJ3Q-YZB56-GZADI-QPQPK-Z3BOL"></script>
+<script>
+    (function getLocation()
+    {
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+    })();
+
+    function showPosition(position) {
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
+
+        let latLng = new qq.maps.LatLng(latitude, longitude);
+        //调用获取位置方法
+        let geocoder = new qq.maps.Geocoder({
+            complete: function (result) {
+                console.log(result.detail.address);
+                let userZone = document.getElementById("ECS_MEMBERZONE");
+                userZone.appendChild(document.createTextNode("位置:" + result.detail.address));
+            }
+        });
+        geocoder.getAddress(latLng);
+
+        console.log(latitude, longitude);
+    }
+</script>
 </body>
 </html>

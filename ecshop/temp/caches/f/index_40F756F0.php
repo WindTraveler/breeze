@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:44:"/home/breeze/ecshop/themes/default/index.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:66:"/home/breeze/ecshop/themes/default/library/index_category_tree.lbi";i:3;s:59:"/home/breeze/ecshop/themes/default/library/index_banner.lbi";i:4;s:56:"/home/breeze/ecshop/themes/default/library/index_lad.lbi";i:5;s:52:"/home/breeze/ecshop/themes/default/library/f1_ad.lbi";i:6;s:56:"/home/breeze/ecshop/themes/default/library/cat_goods.lbi";i:7;s:52:"/home/breeze/ecshop/themes/default/library/f2_ad.lbi";i:8;s:52:"/home/breeze/ecshop/themes/default/library/f3_ad.lbi";i:9;s:60:"/home/breeze/ecshop/themes/default/library/recommend_hot.lbi";i:10;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1525592826;s:8:"maketime";i:1525589226;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:44:"/home/breeze/ecshop/themes/default/index.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:66:"/home/breeze/ecshop/themes/default/library/index_category_tree.lbi";i:3;s:59:"/home/breeze/ecshop/themes/default/library/index_banner.lbi";i:4;s:56:"/home/breeze/ecshop/themes/default/library/index_lad.lbi";i:5;s:52:"/home/breeze/ecshop/themes/default/library/f1_ad.lbi";i:6;s:56:"/home/breeze/ecshop/themes/default/library/cat_goods.lbi";i:7;s:52:"/home/breeze/ecshop/themes/default/library/f2_ad.lbi";i:8;s:52:"/home/breeze/ecshop/themes/default/library/f3_ad.lbi";i:9;s:60:"/home/breeze/ecshop/themes/default/library/recommend_hot.lbi";i:10;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1525602394;s:8:"maketime";i:1525598794;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -420,7 +420,7 @@ if (Object.prototype.toJSONString){
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.baidu.com%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>
@@ -428,5 +428,31 @@ if (Object.prototype.toJSONString){
 </div>
  
  
+<!--<script src="http://api.map.baidu.com/api?v=3.0&ak=taVE3VGRKQkv1rb8ngGRHNpwFkv2a6MG"></script>-->
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=IGEBZ-HHJ3Q-YZB56-GZADI-QPQPK-Z3BOL"></script>
+<script>
+    (function getLocation()
+    {
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+    })();
+    function showPosition(position) {
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
+        let latLng = new qq.maps.LatLng(latitude, longitude);
+        //调用获取位置方法
+        let geocoder = new qq.maps.Geocoder({
+            complete: function (result) {
+                console.log(result.detail.address);
+                let userZone = document.getElementById("ECS_MEMBERZONE");
+                userZone.appendChild(document.createTextNode("位置:" + result.detail.address));
+            }
+        });
+        geocoder.getAddress(latLng);
+        console.log(latitude, longitude);
+    }
+</script>
 </body>
 </html>
