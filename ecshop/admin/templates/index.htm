@@ -13,14 +13,22 @@ if (window.top != window)
 {/literal}
 //-->
 </script>
-  <frameset rows="120,*" framespacing="0" border="0">
-    <frame  rows="120,*" src="index.php?act=top" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
-    <frameset cols="180, 10, *" framespacing="0" border="0" id="frame-body">
-      <frame src="index.php?act=menu" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">
-      <frame src="index.php?act=drag" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">
-      <frame src="index.php?act=main" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">
-    </frameset>
+
+  <!--原后台-->
+  <!--<frameset rows="120,*" framespacing="0" border="0">-->
+    <!--<frame  rows="120,*" src="index.php?act=top" id="header-frame" name="header-frame" frameborder="no" scrolling="no">-->
+    <!--<frameset cols="180, 10, *" framespacing="0" border="0" id="frame-body">-->
+      <!--<frame src="index.php?act=menu" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">-->
+      <!--<frame src="index.php?act=drag" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">-->
+      <!--<frame src="index.php?act=main" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">-->
+    <!--</frameset>-->
+  <!--</frameset>-->
+
+  <!--新后台-->
+  <frameset rows="*" framespacing="0" border="0">
+    <frame src="index.php?act=new_admin" id="new-admin-frame" name="new-admin-frame" frameborder="no" scrolling="yes">
   </frameset>
+
   <frameset rows="0, 0" framespacing="0" border="0">
     <frame src="http://api.ecshop.com/record.php?mod=login&url={$shop_url}" id="hidd-frame" name="hidd-frame" frameborder="no" scrolling="no">
   </frameset>

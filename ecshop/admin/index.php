@@ -23,6 +23,7 @@ if ($_REQUEST['act'] == '')
 {
     $smarty->assign('shop_url', urlencode($ecs->url()));
     $smarty->display('index.htm');
+    //$smarty->display('new_admin.html');
 }
 
 /*------------------------------------------------------ */
@@ -1315,6 +1316,12 @@ elseif ($_REQUEST['act'] == 'license')
     {
         make_json_error(0);
     }
+}
+/*------------------------------------------------------ */
+//-- 作者：马翔宇 新后台
+/*------------------------------------------------------ */
+elseif ($_REQUEST['act'] == 'new_admin'){
+    $smarty->display('new_admin.html');
 }
 
 /**
