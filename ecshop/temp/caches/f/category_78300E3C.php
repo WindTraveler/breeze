@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1523692375;s:8:"maketime";i:1523688775;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1526908625;s:8:"maketime";i:1526905025;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -172,7 +172,7 @@ function selectPage(sel)
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Faaa.maxy.site%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>

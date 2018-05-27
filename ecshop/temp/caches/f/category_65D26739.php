@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1524900756;s:8:"maketime";i:1524897156;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1526908631;s:8:"maketime";i:1526905031;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -82,7 +82,7 @@ var process_request = "正在处理您的请求...";
   <div class="displaylist">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td class="tdl"><span></span>相关商品<b>4</b>个 </td>
+        <td class="tdl"><span></span>相关商品<b>8</b>个 </td>
         <td><a name='goods_list'></a></td>
         <td class="tdr"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -108,7 +108,55 @@ var process_request = "正在处理您的请求...";
     <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
             <div class="centerPadd">
       <div class="clearfix goodsBox" style="border:none;">
-                        <div class="goodsItem"> <a href="goods.php?id=10" class="img-box"><img src="images/201804/thumb_img/10_thumb_G_1523525835268.jpg" alt="康恩贝 天然维..." class="goodsimg" /></a>
+                        <div class="goodsItem"> <a href="goods.php?id=21" class="img-box"><img src="images/201805/thumb_img/21_thumb_G_1525683165112.jpg" alt="龙博士 阿胶红..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=21" title="龙博士 阿胶红枣蛋白质粉女性蛋白粉大豆蛋白女人营养品928g/罐">龙博士 阿胶红...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥199元</div>
+              <a class="price-btn" href="goods.php?id=21">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=20" class="img-box"><img src="images/201805/thumb_img/20_thumb_G_1525683145358.jpg" alt="绿A（Gree..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=20" title="绿A（Green A）天然螺旋藻精片 0.5g*200粒">绿A（Gree...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥125元</div>
+              <a class="price-btn" href="goods.php?id=20">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=19" class="img-box"><img src="images/201805/thumb_img/19_thumb_G_1525683120806.jpg" alt="汤臣倍健（BY..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=19" title="汤臣倍健（BY-HEALTH） 牛初乳加钙咀嚼片60片">汤臣倍健（BY...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥200元</div>
+              <a class="price-btn" href="goods.php?id=19">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=18" class="img-box"><img src="images/201805/thumb_img/18_thumb_G_1525683088412.jpg" alt="善存Centr..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=18" title="善存Centrum 佳维礼盒 复合维生素 1.33g*150片装">善存Centr...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥120元</div>
+              <a class="price-btn" href="goods.php?id=18">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=10" class="img-box"><img src="images/201804/thumb_img/10_thumb_G_1523525835268.jpg" alt="康恩贝 天然维..." class="goodsimg" /></a>
         <div class="goods-info">
             <div class="goods-title"><a href="goods.php?id=10" title="康恩贝 天然维生素E软胶囊">康恩贝 天然维...</a></div>
             <div class="goods-ms">
@@ -215,7 +263,7 @@ function selectPage(sel)
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Faaa.maxy.site%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>

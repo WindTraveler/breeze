@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1523690809;s:8:"maketime";i:1523687209;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1527321985;s:8:"maketime";i:1527318385;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -82,7 +82,7 @@ var process_request = "正在处理您的请求...";
   <div class="displaylist">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td class="tdl"><span></span>相关商品<b>4</b>个 </td>
+        <td class="tdl"><span></span>相关商品<b>8</b>个 </td>
         <td><a name='goods_list'></a></td>
         <td class="tdr"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -108,7 +108,55 @@ var process_request = "正在处理您的请求...";
     <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
             <div class="centerPadd">
       <div class="clearfix goodsBox" style="border:none;">
-                        <div class="goodsItem"> <a href="goods.php?id=7" class="img-box"><img src="images/201804/thumb_img/7_thumb_G_1523525591113.jpg" alt="丸美激白防晒精..." class="goodsimg" /></a>
+                        <div class="goodsItem"> <a href="goods.php?id=17" class="img-box"><img src="images/201805/thumb_img/17_thumb_G_1525682920124.jpg" alt="丝蕴(Syos..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=17" title="丝蕴(Syoss)无硅净屑洗发露套装">丝蕴(Syos...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥99元</div>
+              <a class="price-btn" href="goods.php?id=17">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=16" class="img-box"><img src="images/201805/thumb_img/16_thumb_G_1525682894262.jpg" alt="清扬(CLEA..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=16" title="清扬(CLEAR)男士去屑洗发水套装">清扬(CLEA...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥60元</div>
+              <a class="price-btn" href="goods.php?id=16">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=15" class="img-box"><img src="images/201805/thumb_img/15_thumb_G_1525682661903.jpg" alt="阿道夫（ADO..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=15" title="阿道夫（ADOLPH）轻柔丝滑洗护组合3件套">阿道夫（ADO...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥50元</div>
+              <a class="price-btn" href="goods.php?id=15">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=14" class="img-box"><img src="images/201805/thumb_img/14_thumb_G_1525682465247.jpg" alt="滋源 无患子 ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=14" title="滋源 无患子 控油清爽 洗头水 535ml">滋源 无患子 ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥70元</div>
+              <a class="price-btn" href="goods.php?id=14">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=7" class="img-box"><img src="images/201804/thumb_img/7_thumb_G_1523525591113.jpg" alt="丸美激白防晒精..." class="goodsimg" /></a>
         <div class="goods-info">
             <div class="goods-title"><a href="goods.php?id=7" title="丸美激白防晒精华隔离乳SPF30">丸美激白防晒精...</a></div>
             <div class="goods-ms">
@@ -215,7 +263,7 @@ function selectPage(sel)
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Faaa.maxy.site%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>

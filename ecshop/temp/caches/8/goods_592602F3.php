@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"/home/breeze/ecshop/themes/default/goods.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:60:"/home/breeze/ecshop/themes/default/library/goods_gallery.lbi";i:4;s:57:"/home/breeze/ecshop/themes/default/library/goods_tags.lbi";i:5;s:59:"/home/breeze/ecshop/themes/default/library/bought_goods.lbi";i:6;s:64:"/home/breeze/ecshop/themes/default/library/bought_note_guide.lbi";i:7;s:55:"/home/breeze/ecshop/themes/default/library/comments.lbi";i:8;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1523695118;s:8:"maketime";i:1523691518;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"/home/breeze/ecshop/themes/default/goods.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:60:"/home/breeze/ecshop/themes/default/library/goods_gallery.lbi";i:4;s:57:"/home/breeze/ecshop/themes/default/library/goods_tags.lbi";i:5;s:59:"/home/breeze/ecshop/themes/default/library/bought_goods.lbi";i:6;s:64:"/home/breeze/ecshop/themes/default/library/bought_note_guide.lbi";i:7;s:55:"/home/breeze/ecshop/themes/default/library/comments.lbi";i:8;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1527323694;s:8:"maketime";i:1527320094;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -240,7 +240,7 @@ var process_request = "正在处理您的请求...";
                                 <strong>上架时间：</strong>2018-04-12                              </dd>
               <dd class="ddR">
                 
-                <strong>商品点击数：</strong>1 </dd>
+                <strong>商品点击数：</strong>2 </dd>
                 <dd class="ddR">
        
        <strong>累计销量：</strong>0       </dd>
@@ -389,7 +389,7 @@ var process_request = "正在处理您的请求...";
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Faaa.maxy.site%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>
@@ -408,7 +408,7 @@ var minute = "分钟";
 var second = "秒";
 var end = "结束";
 var goodsId = 2;
-var now_time = 1523691518;
+var now_time = 1527320094;
 onload = function(){
   changePrice();
   fixpng();

@@ -38,6 +38,7 @@ if (Object.prototype.toJSONString){
 <div class="indexpage clearfix index-ad">
   <div class="ad-tg">
     
+<?php $this->assign('ads_id','4'); ?><?php $this->assign('ads_num','1'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
 
   </div>
   <div class="ad-lb">
@@ -94,33 +95,45 @@ if (Object.prototype.toJSONString){
 
 
 <!--<script src="http://api.map.baidu.com/api?v=3.0&ak=taVE3VGRKQkv1rb8ngGRHNpwFkv2a6MG"></script>-->
-<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=IGEBZ-HHJ3Q-YZB56-GZADI-QPQPK-Z3BOL"></script>
+<!--<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=IGEBZ-HHJ3Q-YZB56-GZADI-QPQPK-Z3BOL"></script>-->
 <script>
-    (function getLocation()
-    {
-        if (navigator.geolocation)
-        {
-            navigator.geolocation.getCurrentPosition(showPosition);
+    // (function getLocation()
+    // {
+    //     if (navigator.geolocation)
+    //     {
+    //         console.log("地理2");
+    //         navigator.geolocation.getCurrentPosition(showPosition);
+    //     }
+    // })();
+    //
+    // function showPosition(position) {
+    //     console.log("回调");
+    //     let latitude = position.coords.latitude;
+    //     let longitude = position.coords.longitude;
+    //
+    //     let latLng = new qq.maps.LatLng(latitude, longitude);
+    //     //调用获取位置方法
+    //     let geocoder = new qq.maps.Geocoder({
+    //         complete: function (result) {
+    //             console.log(result.detail.address);
+    //             let userZone = document.getElementById("ECS_MEMBERZONE");
+    //             userZone.appendChild(document.createTextNode("位置:" + result.detail.address));
+    //         }
+    //     });
+    //     geocoder.getAddress(latLng);
+    //
+    //     console.log(latitude, longitude);
+    // }
+    
+    function showLocation(res) {
+        if(res.status === 0){
+            let userZone = document.getElementById("ECS_MEMBERZONE");
+            let ad = res.result.ad_info;
+            let locStr = "当前位置:" + ad.city;
+            userZone.appendChild(document.createTextNode(locStr));
         }
-    })();
-
-    function showPosition(position) {
-        let latitude = position.coords.latitude;
-        let longitude = position.coords.longitude;
-
-        let latLng = new qq.maps.LatLng(latitude, longitude);
-        //调用获取位置方法
-        let geocoder = new qq.maps.Geocoder({
-            complete: function (result) {
-                console.log(result.detail.address);
-                let userZone = document.getElementById("ECS_MEMBERZONE");
-                userZone.appendChild(document.createTextNode("位置:" + result.detail.address));
-            }
-        });
-        geocoder.getAddress(latLng);
-
-        console.log(latitude, longitude);
     }
 </script>
+<script src="http://apis.map.qq.com/ws/location/v1/ip?key=IGEBZ-HHJ3Q-YZB56-GZADI-QPQPK-Z3BOL&output=jsonp&callback=showLocation"></script>
 </body>
 </html>

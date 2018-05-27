@@ -50,20 +50,25 @@ $data = array (
   array (
     0 => 
     array (
-      'goods_id' => '2',
+      'goods_id' => '8',
       'sort_order' => '100',
     ),
     1 => 
     array (
-      'goods_id' => '3',
+      'goods_id' => '2',
       'sort_order' => '100',
     ),
     2 => 
     array (
-      'goods_id' => '4',
+      'goods_id' => '3',
       'sort_order' => '100',
     ),
     3 => 
+    array (
+      'goods_id' => '4',
+      'sort_order' => '100',
+    ),
+    4 => 
     array (
       'goods_id' => '1',
       'sort_order' => '100',

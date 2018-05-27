@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1523692381;s:8:"maketime";i:1523688781;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:47:"/home/breeze/ecshop/themes/default/category.dwt";i:1;s:58:"/home/breeze/ecshop/themes/default/library/page_header.lbi";i:2;s:54:"/home/breeze/ecshop/themes/default/library/ur_here.lbi";i:3;s:57:"/home/breeze/ecshop/themes/default/library/goods_list.lbi";i:4;s:52:"/home/breeze/ecshop/themes/default/library/pages.lbi";i:5;s:58:"/home/breeze/ecshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1526908627;s:8:"maketime";i:1526905027;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v3.6.0" />
@@ -75,7 +75,7 @@ var process_request = "正在处理您的请求...";
   <div class="displaylist">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td class="tdl"><span></span>相关商品<b>4</b>个 </td>
+        <td class="tdl"><span></span>相关商品<b>8</b>个 </td>
         <td><a name='goods_list'></a></td>
         <td class="tdr"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -101,7 +101,55 @@ var process_request = "正在处理您的请求...";
     <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
             <div class="centerPadd">
       <div class="clearfix goodsBox" style="border:none;">
-                        <div class="goodsItem"> <a href="goods.php?id=13" class="img-box"><img src="images/201804/thumb_img/13_thumb_G_1523526046742.jpg" alt="地瓜干健康粗粮..." class="goodsimg" /></a>
+                        <div class="goodsItem"> <a href="goods.php?id=25" class="img-box"><img src="images/201805/thumb_img/25_thumb_G_1525683508586.jpg" alt="混合蔬果条90..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=25" title="混合蔬果条90g">混合蔬果条90...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥9元</div>
+              <a class="price-btn" href="goods.php?id=25">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=24" class="img-box"><img src="images/201805/thumb_img/24_thumb_G_1525683476446.jpg" alt="香港鲜龟熬制龟..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=24" title="香港鲜龟熬制龟苓膏">香港鲜龟熬制龟...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥10元</div>
+              <a class="price-btn" href="goods.php?id=24">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=23" class="img-box"><img src="images/201805/thumb_img/23_thumb_G_1525683449060.jpg" alt="金品福 晓唯无..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=23" title="金品福 晓唯无糖苦荞蛋卷">金品福 晓唯无...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥15元</div>
+              <a class="price-btn" href="goods.php?id=23">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=22" class="img-box"><img src="images/201805/thumb_img/22_thumb_G_1525683405698.jpg" alt="百草味 早餐食..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=22" title="百草味 早餐食品办公室零食 蛋糕糕点小吃 凤梨味 口袋面包280g/盒">百草味 早餐食...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">￥20元</div>
+              <a class="price-btn" href="goods.php?id=22">立即购买</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=13" class="img-box"><img src="images/201804/thumb_img/13_thumb_G_1523526046742.jpg" alt="地瓜干健康粗粮..." class="goodsimg" /></a>
         <div class="goods-info">
             <div class="goods-title"><a href="goods.php?id=13" title="地瓜干健康粗粮健身食品">地瓜干健康粗粮...</a></div>
             <div class="goods-ms">
@@ -208,7 +256,7 @@ function selectPage(sel)
   <div class="blank"></div>
   
 <div class="footer_info"> &copy; 2005-2018 微风 版权所有，并保留所有权利。       <br />
-      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.maxy.site%3A9999%2F" target="_blank"
+      <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Faaa.maxy.site%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
             <div>ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank"></a></div>
     </div>
